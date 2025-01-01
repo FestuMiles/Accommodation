@@ -1,6 +1,54 @@
 .home{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(public/Images/1.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)), url(public/Images/1.jpg);
     background-size: cover;
     background-position: center;
+    padding-top: 200px;
+}
+
+.tile{
+    width: 300px;
+    margin-left: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.tile p{
+    color: #666;
+}
+.tile .apart-cont, .tile .tour-direc{
+    display: flex;
+    justify-content: space-between;
+}
+.tile .address{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tile div div{
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tile div i{
+    font-size: 30px;
+    color: #666;
+}
+.tile .schedule{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(1, 46, 131, .9);;
+}
+.tile .schedule i{
+    margin-left: 70px;
+    margin-right: 10px;
+    color: #fff;
+}
+.tile .schedule p{
+    color: #fff;
 }
