@@ -1,54 +1,69 @@
-.home{
+:root {
+    --primary-color: rgba(1, 46, 131, .9);
+    --secondary-color: #666;
+    --background-color: #fff;
+    --border-color: #ddd;
+    --padding: 20px;
+}
+
+.home {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)), url(public/Images/1.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.1)), url(public/Images/1.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 200px;
 }
 
-.tile{
+.tile {
     width: 300px;
     margin-left: 40px;
-    background-color: #fff;
+    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
 }
-.tile p{
-    color: #666;
+
+.tile p {
+    color: var(--secondary-color);
 }
-.tile .apart-cont, .tile .tour-direc{
+
+.tile .apart-cont,
+.tile .tour-direc {
     display: flex;
     justify-content: space-between;
 }
-.tile .address{
+
+.tile .address {
     text-align: center;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
+    padding: var(--padding);
+    border-bottom: 1px solid var(--border-color);
 }
 
-.tile div div{
-    border: 1px solid #ddd;
-    padding: 20px;
+.tile div div {
+    border: 1px solid var(--border-color);
+    padding: var(--padding);
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.tile div i{
+
+.tile div i {
     font-size: 30px;
-    color: #666;
+    color: var(--secondary-color);
 }
-.tile .schedule{
+
+.tile .schedule {
     display: flex;
     padding: 10px;
     align-items: center;
-    background-color: rgba(1, 46, 131, .9);;
+    background-color: var(--primary-color);
 }
-.tile .schedule i{
-    margin-left: 70px;
-    margin-right: 10px;
+
+.tile .schedule i {
+    margin: 0 10px 0 70px;
     color: #fff;
 }
-.tile .schedule p{
+
+.tile .schedule p {
     color: #fff;
 }
