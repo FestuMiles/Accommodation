@@ -67,3 +67,88 @@
 .tile .schedule p {
     color: #fff;
 }
+.about {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.about h1{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+.about p{
+    font-size: 20px;
+    width: 800px;
+    
+    padding: 20px;
+    
+}
+
+
+.container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    max-width: 200vh;
+    /* margin: 50px auto; */
+    /* padding: 20px; */
+    /* border-radius: 8px; */
+    gap: 5px;
+    height: 50vh;
+    /* position: relative; */
+    /* margin: 5px; */
+    padding: 6px;
+
+}
+.text-section{
+    width: 25%;
+}
+.images{
+     display: flex; 
+    /* flex-direction: column; */
+     flex: 1;
+    width: 60%;
+    position: relative;
+    padding: 6px;
+
+}
+.top-image{ 
+ width: 100%;
+ /* height: auto; */
+
+ position: relative;
+ margin-bottom: -50;
+ box-shadow: #222;
+
+}
+.bottom-image {
+width: 90%;
+height: auto;
+border-radius: 10px;
+position: relative;
+
+}
+
+.Amenities {
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.1)), url(public/Images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+}
+
+.Amenities .tile {
+    width: 300px;
+    margin-left: 900px;
+    background-color: white;
+    height: 300px;
+    opacity: var(--background-color);
+    text-align: center;
+}
+.Amenities h2{
+    padding-top: 20px;
+}
