@@ -133,6 +133,350 @@ position: relative;
 
 }
 
+
+
+/* The about section  */
+.container1{
+    padding: 50px;
+    width: 400px;
+    margin: auto;
+}
+.container1 .info-box{
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+    border: 3px solid var(--primary-color);
+    padding: 20px;
+    height: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.container1 .info-box .right{
+    border-left: 2px solid var(--primary-color);
+    /* background-color: #222; */
+    padding-left: 15px;
+}
+.about-us{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+/* Stylish living section  */
+
+.stylish-living {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #fff;
+  }
+  .stylish-living .container {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .stylish-living .images {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .stylish-living .main-image-wrapper {
+    position: absolute;
+    /* z-index: 2; */
+    width: 450px;
+    left: 15px;
+    bottom: 10px;
+  }
+  .stylish-living .main-image {
+    width: 100%;
+    top: 50px;
+    border: 10px solid #fff;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .stylish-living .secondary-image-wrapper {
+    position: absolute;
+    top: -50px;
+    /* left: 20px; */
+    right: -200px;
+    /* z-index: 3; */
+    width: 400px;
+    padding: 0;
+
+  }
+  .stylish-living .secondary-image {
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 10px solid #fff;
+  }
+  .stylish-living .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 100;
+
+  }
+  .stylish-living .content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .stylish-living .content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  .stylish-living .pricing {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    font-weight: 100;
+  }
+  .stylish-living .pricing li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  .stylish-living .pricing a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  .stylish-living .pricing a:hover {
+    text-decoration: underline;
+  }
+  .stylish-living .view-apartments {
+    padding: 12px 24px; 
+    width: 200px;
+    background-color: white;
+    color: rgba(0, 40, 85, 0.8);
+    border-color: #002855;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .stylish-living .view-apartments:hover {
+    background-color: #0056b3;
+  }
+
+
+  /* The pool and courtyard section  */
+
+
+  .pool-and-courtyard-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: #fff;
+    /* position: relative; */
+  }
+  .pool-container {
+    background-image: url('public/Images/2.jpg'); 
+    /* max-width: 1200px; */
+    /* display: flex; */
+    justify-content: left;
+    /* align-items: center; */
+    /* max-width: 1200px; */
+    width: 100%;
+    height: 600px;
+    /* position: relative; */
+  
+    
+  }
+  .pool-content {
+    background-color: rgba(0, 40, 85, 0.9);
+    color: #fff;
+    /* padding: 30px; */
+    margin: 50px;
+    margin-left: 900px;
+    margin-top: 140px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    opacity: 0.8;
+    padding: 20px;
+    
+  }
+  .pool-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+  }
+  .pool-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-weight: 100;
+    padding: 10px;
+  }
+  .pool-view-amenities {
+    padding: 12px 24px;
+    background-color: #002855;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .pool-view-amenities:hover {
+    background-color: #f1f1f1;
+  }
+
+  .Area {
+    max-width: 100;
+    margin: 0 auto;
+    padding-top: 30px;
+    /* border-block-color: white; */
+    background-color: #fff;
+  }
+  .Area h1 {
+    text-align: center;
+  }
+  
+  .Area p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .Area .Area-Images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    padding-top: 20px;
+  }
+  .Area .Area-Images img {
+    width: 100%;
+   height: 300px;
+   border-radius: none;
+   object-fit: cover;
+  
+  }
+  .Area .text-content{
+    color: #fff;
+    background-color: #020202;
+   height: 300px;
+    align-content: center;
+  }
+  .ViewArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    background-color: #020202;
+    width: fit-content;
+    margin: auto;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  .ViewArea:hover{
+    background-color: #fff;
+    color: #020202;
+    transition: 0.2s;
+
+  }
+
+
+
+  /* Benefits Section  */
+
+  .benefits-section {
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .benefits-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .benefits-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .benefits-container p {
+    font-size: 1.2rem;
+  }
+  .benefits-container .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 40px;
+    margin-top: 10px;
+    overflow: hidden;
+    justify-items: center;
+    background-color: #f1f1f1;
+    margin: auto;
+  }
+  .benefits-container .container .item {
+    width: 300px;
+    /* position: relative; */
+    /* height: 600px; */
+    /* max-height: 300px; */
+    /* position: absolute; */
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding-bottom: 30px;
+  }
+  .benefits-container .container .item .image {
+    width: 300px;
+    background-color: #fff;
+    /* border-radius: 0.5rem 0.5rem 0 0; */
+  }
+  .benefits-container .item h2 {
+    color: #333;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .benefits-container .item h3 {
+    color: #666;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  .benefits-container .item p{
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+
+  }
+  .benefits-container .item a{
+    color: #999;
+
+  }
+  .benefits-container .item img {
+    /* max-width: 400px; */
+    max-height: 100%;
+    width: 300px;
+    object-fit: contain;
+    /* object-fit: contain; */
+    /* border-radius: 0.5rem 0.5rem 0 0; */
+  }
+  .benefits-container .dividor{
+    border: 1px solid var(--secondary-color);
+    width: 80%;
+    margin: auto;
+  }
+  
+
+
 .Amenities {
     min-height: 90vh;
     background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.1)), url(public/Images/1.jpg);
